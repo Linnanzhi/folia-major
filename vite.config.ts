@@ -300,7 +300,8 @@ export default async function viteConfig(_config: ConfigEnv): Promise<UserConfig
           description: 'A beautiful AI-themed music player',
           theme_color: '#09090b',
           background_color: '#09090b',
-          display: 'standalone',
+          display: 'fullscreen',
+          orientation: 'landscape',
           icons: [
             {
               src: 'icon.svg',
